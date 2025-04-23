@@ -1,3 +1,3 @@
 void main() { 
-  print("Hola mundo con Git");
+  print("Hola mundo desde el segundo commit con Git");
 }

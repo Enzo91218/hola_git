@@ -1,14 +1,18 @@
 class Persona {
   int id;
   String name;
+  String apellido;
   int age;
+
   // Constructor
-Persona(this.name, this.id , this.age);
+
+Persona(this.name, this.apellido, this.id , this.age);
+
 void saluda() { 
-  print("El nombre del cliente $name y la edad es $age");
+  print("El nombre del cliente es $name y el apellido es $apellido la edad es $age");
 }
 }
 void main() {
-  var persona1 = Persona("Juan", 2 , 20);
+  var persona1 = Persona("Juan", "Angulo", 1 , 20);
   persona1.saluda();
 }

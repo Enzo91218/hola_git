@@ -2,6 +2,7 @@ class Persona {
   int id;
   String name;
   int age;
+  // Constructor
 Persona(this.name, this.id , this.age);
 void saluda() { 
   print("El nombre del cliente $name y la edad es $age");

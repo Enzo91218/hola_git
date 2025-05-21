@@ -1,15 +1,19 @@
 class Persona {
   int id;
   String name;
-  String apellido;
+  String apellidos;
   int age;
+
 
   // Constructor
 
-Persona(this.name, this.apellido, this.id , this.age);
+
+
+
+Persona(this.name, this.apellidos, this.id , this.age);
 
 void saluda() { 
-  print("El nombre del cliente es $name y el apellido es $apellido la edad es $age");
+  print("El nombre del cliente es $name y el apellido es $apellidos la edad es $age");
 }
 }
 void main() {

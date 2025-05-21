@@ -1,13 +1,13 @@
 class Persona {
   int id;
   String nombre;
-  int edad;
-Persona(this.nombre, this.id , this.edad);
-void saludar() { 
-  print("Mi nombre es $nombre y mi edad es $edad");
+  int age;
+Persona(this.nombre, this.id , this.age);
+void saluda() { 
+  print("El nombre es $nombre y la edad es $age");
 }
 }
 void main() {
   var persona1 = Persona("Juan", 2 , 20);
-  persona1.saludar();
+  persona1.saluda();
 }

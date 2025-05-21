@@ -1,10 +1,10 @@
 class Persona {
   int id;
-  String nombre;
+  String name;
   int age;
-Persona(this.nombre, this.id , this.age);
+Persona(this.name, this.id , this.age);
 void saluda() { 
-  print("El nombre es $nombre y la edad es $age");
+  print("El nombre del cliente $name y la edad es $age");
 }
 }
 void main() {
